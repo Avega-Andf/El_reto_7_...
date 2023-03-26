@@ -11,10 +11,10 @@ while(i <= 100): #Condicional
 ```mermaid
 graph TD;
   A[Inicio] -->a[primer valor de i -> i=1]--> B[i=100?];
-  B -- Sí --> C[Imprimir i y su cuadrado i^2];
+  B -- no  --> C[Imprimir i y su cuadrado i^2];
   C --> D[i=i+1];
   D --> B;
-  B -- No --> E[Fin];
+  B -- Si --> E[Fin];
 ```
 ### Imprimir un listado con los números impares desde 1 hasta 999 y seguidamente otro listado con los números pares desde 2 hasta 1000.
 
